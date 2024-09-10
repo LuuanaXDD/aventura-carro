@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Procura do veiculo perdido</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jfif" alt="">
+            <p>Um dia desses achei uma chave de um carro perdido em um bau antigo , vamos encontrar esse carro em umas dessas cidades!</p>
+            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="2">São Paulo</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada no Rio de Janeiro, chegando proximo ao bairro lebron encotra sua primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista proximo ao lago</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em são paulo existe 2 locais para procurar , por onde vamos começar?
+                ?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar a 25 de março</button>
+            <button class="btn-proximo" data-proximo="6">Explorar o mercadão</button>
+        </div>
+    </div>
+    <div class="passo" id="passo-3">
+            <p>No beira do lago , você encontra um documento apontando que a proxima pista esta localizada em cabo frio</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para cabo frio</button>
+    </div>
+
+    <div class="passo" id="passo-4">
+           <img src="img/voltando-para-casa.jpg" alt="imagem voltando para casa e desistindo da aventura">
+        <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado.</p>
+    </div>
+
+    <div class="passo" id="passo-5">
+            
+        <p>na 25 de março você encontra um mapa que aponta pistas para cabo frio.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para cabo frio</button>
+    </div>
+
+    <div class="passo" id="passo-6">
+            <p>Explorando o mercadão, você encontra um rapaz que diz saber sobre o carro e que teria pista na igreja de itu.</p>
+            <button class="btn-proximo" data-proximo="8">viajar para igreja de itu</button>
+    </div>
+
+    <div class="passo" id="passo-7">
+            <p>Em cabo frio  a busca pelo carro antigo se intensifica. Você se depara com 2 caminhos diferentes.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pela esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela direita</button>
+    </div>
+
+    <div class="passo" id="passo-8">
+            <p>chegando na igreja em itu, você finalmente encontra o mapa antigo. Agora, para cabo frio!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para cabo frio</button>
+    </div>
+
+    <div class="passo" id="passo-9">
+            <p>O caminho à esquerda leva você a uma garagem escondida com uma senha escrita no portão.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a garagem</button>
+    </div>
+
+    <div class="passo" id="passo-10">
+            <p>O caminho à direita termina em uma área vazia. não há sinais do carro por aqui!</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro lado</button>
+    </div>
+
+    <div class="passo" id="passo-11">
+            <img src="img/cenario-passo12.jpg" alt="encontrando o carro">
+        <p>Dentro da garagem, você descobre o carro perdido  e decide se dedicar a estudar e consertar o carro</p>
+    </div>
+
+    <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a garagem escondida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a garagem</button>
+    </div>
+    </main>
+     <script src="script.js"></script>
+</body>
+</html>
